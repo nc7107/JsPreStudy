@@ -13,6 +13,11 @@ function paintToDo(text) {
   li.appendChild(span);
   li.appendChild(delBtn);
   toDoList.appendChild(li);
+  const toDoObj = {
+    text: text,
+    id: toDos.length + 1,
+  };
+  toDoInput.value=======
 }
 
 function handleSubmit(event) {
